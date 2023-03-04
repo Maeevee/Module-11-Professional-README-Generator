@@ -1,2 +1,4 @@
 package.json
 utils/
+node_modules/
+package-lock.json

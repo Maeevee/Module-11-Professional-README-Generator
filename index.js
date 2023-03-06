@@ -4,10 +4,13 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // array of questions for user
-const questions = [
-
-];
-
+inquirer.prompt([
+    {
+        type: "input",
+        message: "Name of your repo:",
+        name: "title"
+    },
+])
 // function to write README file
 function writeToFile(fileName, data) {
 }

@@ -4,6 +4,14 @@ function generateMarkdown(response) {
   # ${response.title}
   ## Description
   ${response.description}
+
+  ## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
   
   ## Installation
   ${response.installation}

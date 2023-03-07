@@ -1,4 +1,4 @@
-# Module-11-Professional-README-Generator
+# Professional-README-Generator-by-Kiriakulova
 This repository contains a command-line application that generates a professional README.md file from user input. The application is built using Node.js and uses the Inquirer.js package to prompt users for information about their project.
 
 ## Installation

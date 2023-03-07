@@ -14,4 +14,9 @@ inquirer.prompt([
 // function to write README file
 .then((response) => {
     const markdown = generateMarkdown(response);
+    
+    // function to initialize program
+    fs.writeFile("CreatedREADME.md", markdown, (error) => {
+    error ? console.log(error) : console.log("README generated!");
+    });
 });
